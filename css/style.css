@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-hero-section{
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8) ), url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* .top-hero-section::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.text-primary {
+    color: #124265 !important;
+}
+
+.btn-primary {
+    background-color: #124265 !important; 
+}  
+
+#count-section #client-section{
+    background: #f8fbfe;
+}
+
+#count-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#client-section img {
+    max-width: 45%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+}
+
+#client-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+.testimony-person img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.bi-check2-all{
+    color: blue;
+}
+
+
+#testimonials .testimony{
+    position: relative;
+   border-radius: 1em 0.5em 0 0;
+}
+
+.card-icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.card-icon svg{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.card-icon i{
+    z-index: 10;
+}
+
+.service-card:hover .blue-icon path{
+    fill: #47aeff;
+    color: #fff;
+}
+
+.service-card:hover i{
+    color: #fff;
+}
+
+.service-card i{
+    font-size: 38px;
+    color: #124265;
+}
+
+.orange-icon i{
+    color: #ffa76e;
+}
+
+.service-card:hover .orange-icon path{
+    fill: #ffa76e;
+}
+
+
+.yellow-icon i{
+    color: rgba(228, 84, 151, 0.867);
+}
+
+.service-card:hover .yellow-icon path{
+    fill: #ffbb2c;
+}
+
+.yellow-2-icon i{
+    color: #ffbb2c;
+}
+
+.service-card:hover .yellow-2-icon path{
+    fill: #ffbb2c;
+}
+
+.service-card:hover .red-icon path{
+    fill: #ff5828;
+}
+
+.red-icon i{
+    color: #ff5828;
+}
+
+.service-card:hover .lemon-icon path{
+    fill: #11dbcf;
+}
+
+.lemon-icon i{
+    color: #11dbcf;
+}
+
+#action-section .btn-primary{
+    background-color: none;
+}
